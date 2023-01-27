@@ -1,0 +1,61 @@
+@import '../vars/vars.scss';
+// миксины
+// сброс стилей
+// контейнер
+// общие кнопки и елементы
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: $LG;
+
+    .bold {
+        font-weight: 700;
+        color: $G;
+    }
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: $LG;
+}
+
+.wrapper {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: $F;
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: $F;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    max-width: 222px;
+    width: 100%;
+    min-height: 71px;
+    border: none;
+    cursor: pointer;
+}
